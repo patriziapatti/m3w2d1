@@ -1,0 +1,48 @@
+body{
+    background-color: bisque;
+}
+
+.row ul li a{
+    font-style: italic;
+    color: black;
+}
+
+ul li a:link, a:visited {
+    text-decoration: none;
+    background-color: transparent;
+}
+ul li a:hover, a:active {
+    text-decoration: underline;
+    color: #aaa;
+}
+
+nav ul li{
+    font-style: normal;
+}
+
+nav ul li a:link, a:visited{
+    color: black;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+#popolari div img {
+    height: 230px;
+    width: 200px;
+    border-radius: 10px;
+}
+#popolari div{
+    text-align: center;
+}
+#popolari div p{
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
