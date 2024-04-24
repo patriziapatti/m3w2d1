@@ -29,8 +29,6 @@ nav ul li a:hover{
 }
 
 #popolari div img {
-    height: 230px;
-    width: 200px;
     border-radius: 10px;
 }
 #popolari div{
@@ -45,4 +43,8 @@ h1{
     text-align: center;
     padding-bottom: 10px;
     padding-top: 20px;
+}
+
+#popolari .row {
+    justify-content: space-between;
 }
